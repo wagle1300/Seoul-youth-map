@@ -34,7 +34,7 @@ const CONFIG = {
   /* ── 1-1. 브랜드 / 제목 ───────────────────────────────────────────── */
   brand: {
     // 대제목: MAP:IN SYSTEM 고정 사용을 권장합니다(플랫폼 식별).
-    title: "현장맞춤형 활동 MAP핑",
+    title: "현장맞춤형 MAP핑",
     // 소제목: 우리 지역/사업에 맞게 자유롭게 바꾸세요.
     subtitle: "강동구 청소년 시설 안내 지도",
     // 브라우저 탭/공유 카드에 쓸 짧은 이름
@@ -278,9 +278,10 @@ header{
 }
 .brand{display:flex;align-items:center;gap:10px}
 .brand-mark{
-  width:38px;height:38px;border-radius:11px;background:var(--yellow);
-  display:grid;place-items:center;font-weight:900;font-size:13px;color:var(--navy);letter-spacing:-.5px;flex-shrink:0;
+  height:42px;padding:4px 7px;border-radius:11px;background:#fff;
+  display:grid;place-items:center;flex-shrink:0;
 }
+.brand-mark img{height:34px;width:auto;display:block}
 .brand-title{font-size:20px;font-weight:900;letter-spacing:-.4px;line-height:1.2}
 .brand-sub{font-size:13px;color:#B9C6E8;margin-top:2px;font-weight:600}
 #adminEntry{margin-left:auto;width:34px;height:34px;border-radius:10px;background:rgba(255,255,255,.12);
@@ -467,9 +468,9 @@ table.kv td:first-child{width:96px;color:var(--sub);font-weight:700;font-size:13
 
   <header>
     <div class="brand">
-      <div class="brand-mark">M:I</div>
+      <div class="brand-mark"><img src="logo.png" alt="와글 로고"></div>
       <div>
-        <div class="brand-title" id="bTitle">현장맞춤형 활동 MAP핑</div>
+        <div class="brand-title" id="bTitle">현장맞춤형 MAP핑</div>
         <div class="brand-sub" id="bSub">지역 자원 안내 지도</div>
       </div>
       <button id="adminEntry" title="관리자">⚙</button>

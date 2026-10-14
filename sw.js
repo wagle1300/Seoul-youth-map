@@ -4,7 +4,7 @@
    내용을 수정한 뒤에는 반드시 아래 VERSION 숫자를 올리세요.
    올리지 않으면 이용자 기기에 옛 화면이 계속 남습니다.
    ══════════════════════════════════════════════════════════════════ */
-const VERSION = 'mapin-v2.2.1';
+const VERSION = 'mapin-v2.2.2';
 
 /* 반드시 있어야 하는 파일 */
 const SHELL = [
@@ -14,6 +14,7 @@ const SHELL = [
 ];
 /* 있으면 저장하고, 없어도 괜찮은 파일 (아이콘) */
 const OPTIONAL = [
+  './logo.png',
   './icon-192.png',
   './icon-512.png',
   './icon-maskable-512.png',
